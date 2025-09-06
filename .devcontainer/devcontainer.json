@@ -5,6 +5,11 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "runArgs": [
+    "--name",
+    "linux-system-development"
+  ],
+
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
 
