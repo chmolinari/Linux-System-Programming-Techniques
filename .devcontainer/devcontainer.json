@@ -22,9 +22,15 @@
   // Configure tool-specific properties.
   "customizations": {
     "jetbrains": {
+      "settings": {
+        "com.intellij:app:EditorSettings.soft_wrap_file_masks": "*.md; *.txt; *.rst; *.adoc",
+        "Git4Idea:app:Git-Application-Settings.use_credential_helper": true,
+        "org.jetbrains.plugins.github:app:GithubSettings.automatically_mark_as_viewed": false,
+        "com.intellij:app:HttpConfigurable.use_proxy_pac": true
+      },
       "backend": "CLion"
     }
-  },
+  }
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
 }
