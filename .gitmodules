@@ -1,0 +1,3 @@
+[submodule "CmUtils"]
+	path = CmUtils
+	url = https://github.com/chmolinari/CmUtils.git
