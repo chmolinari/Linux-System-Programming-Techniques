@@ -193,3 +193,8 @@ tags
 [._]*.un~
 
 # End of https://www.toptal.com/developers/gitignore/api/git,cmake,c++,jetbrains+all,vim,linux
+
+
+# Additional exclusions.
+CMakePresets.json
+# End of additional exclusions.
