@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/devcontainers/cpp:1-debian-12
 ARG REINSTALL_CMAKE_VERSION_FROM_SOURCE="none"
 
 # Upgrade the system.
-RUN apt update && apt -y upgrade
+RUN apt update && apt -y upgrade && apt -y install build-essential gdb valgrind
 
 # Optionally install the cmake for vcpkg
 COPY ./reinstall-cmake.sh /tmp/
